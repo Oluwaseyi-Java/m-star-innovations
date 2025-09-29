@@ -1,102 +1,155 @@
-/* Navbar.css */
-
-/* Main Navbar */
 .navbar {
-    width: 100%;
-    height: 70px;
-    background: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: transparent;
     position: fixed;
+    width: 100%;
     top: 0;
-    left: 0;
-    z-index: 100;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
 }
 
-/* Logo */
-.logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #00cc22;
-}
-
-.logo span {
-    color: #fa1b1b;
-}
-
-/* Links */
-.nav-links {
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     display: flex;
-    gap: 20px;
-    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
 }
 
-.nav-links li a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: #333;
+.nav-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    /* White text to contrast with hero background */
+}
+
+.nav-menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-item {
+    color: #ffffff;
+    /* White text */
     font-weight: 500;
+    cursor: pointer;
     transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
-    color: #00cc22;
+.nav-item:hover {
+    color: #e53e3e;
+    /* Orange/red accent */
 }
 
-/* CTA Button */
-.cta-btn a {
-    background: #00cc22;
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.3s ease;
-}
-
-.cta-btn a:hover {
-    background: #00991a;
-}
-
-/* Mobile Menu Toggle */
-.menu-toggle {
-    display: none;
-    font-size: 1.5rem;
+/* CTA Buttons */
+.nav-cta-desktop {
+    background: #e53e3e;
+    /* Orange/red from template */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
     cursor: pointer;
-    color: #333;
+    transition: background-color 0.3s ease;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .nav-links {
-        position: absolute;
-        top: 70px;
-        left: -100%;
-        flex-direction: column;
-        background: #fff;
-        width: 100%;
-        height: calc(100vh - 70px);
-        justify-content: center;
-        align-items: center;
-        transition: left 0.3s ease;
+.nav-cta-desktop:hover {
+    background: #c53030;
+    /* Darker shade on hover */
+}
+
+.nav-cta-mobile {
+    display: none;
+    /* Hidden on desktop */
+    background: #e53e3e;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+/* Mobile Menu Hamburger */
+.nav-hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    /* White bars */
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Hamburger to X transformation */
+.nav-hamburger.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.nav-hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-hamburger.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .nav-hamburger {
+        display: flex;
     }
 
-    .nav-links.open {
+    .nav-cta-desktop {
+        display: none;
+        /* Hide desktop CTA on mobile */
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        flex-direction: column;
+        background-color: #1a365d;
+        /* Deep blue background for mobile menu */
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: 0.3s;
+        padding-top: 80px;
+        gap: 0;
+    }
+
+    .nav-menu.active {
         left: 0;
     }
 
-    .nav-links li {
-        margin: 15px 0;
-    }
-
-    .cta-btn {
-        display: none;
-    }
-
-    .menu-toggle {
+    .nav-item {
+        padding: 1.5rem;
+        width: 100%;
         display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
+
+    .nav-cta-mobile {
+        display: block;
+        /* Show CTA inside mobile menu */
+    }
+}
+
+/* Optional: Add background to navbar when scrolled */
+.navbar.scrolled {
+    background-color: #1a365d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }

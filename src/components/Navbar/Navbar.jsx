@@ -1,42 +1,43 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa"; // icons for menu
-
-import "./Navbar.css";
+import React, { useState } from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
     <nav className="navbar">
-      {/* Logo */}
-      <div className="logo">
-        M-<span>Star</span>
-      </div>
+      <div className="nav-container">
+        {/* Logo */}
+        <div className="nav-logo">
+          M-Star Innovations
+        </div>
 
-      {/* Desktop Menu */}
-      <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/training">Training & Courses</a></li>
-        <li><a href="/shop">Shop</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
+        {/* Navigation Menu */}
+        <div className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+          <div className="nav-item">Our Services</div>
+          <div className="nav-item">About Us</div>
+          <div className="nav-item">Training</div>
+          <div className="nav-item">Shop</div>
+          <div className="nav-item">Contact</div>
+          <div className="nav-item">Careers</div>
+          
+          {/* Get Quote Button - Inside menu for mobile */}
+          <button className="nav-cta-mobile">Get Quote</button>
+        </div>
 
-      {/* CTA button (desktop only) */}
-      <div className="cta-btn">
-        <a href="/register">Get Started</a>
-      </div>
+        {/* Get Quote Button - Desktop */}
+        <button className="nav-cta-desktop">Get Quote</button>
 
-      {/* Mobile Menu Toggle */}
-      <div className="menu-toggle" onClick={toggleMenu}>
-        {isOpen ? <FaTimes /> : <FaBars />}
+        {/* Mobile Menu Hamburger */}
+        <div className={`nav-hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
       </div>
     </nav>
   );
