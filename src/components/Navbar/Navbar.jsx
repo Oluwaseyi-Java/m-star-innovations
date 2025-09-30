@@ -34,7 +34,7 @@ const Navbar = () => {
             className="nav-item dropdown"
             onMouseEnter={() => setIsServicesOpen(true)}
             onMouseLeave={() => setIsServicesOpen(false)}
-            onClick={()=>toggleServices}
+            onClick={()=>toggleServices()}
           >
             <span className="nav-link nav-item">
               Our Services
