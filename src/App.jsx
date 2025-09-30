@@ -1,29 +1,28 @@
 
+import { Route, Router, Routes} from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home'
+import About from "./pages/About"
 import Navbar from './components/Navbar/Navbar'
-import Hero from './components/Hero/Hero'
 import Footer from './components/Footer/Footer'
-import Services from './components/Services/Services'
-import Training from './components/Training/Training'
-import ShopPreview from './components/ShopPreview/ShopPreview'
-import Testimonials from './components/Testimonial/Testimonials'
-import Contact from './components/Conteact/Contact'
 
 
 function App() {
   
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Services />
-      <Training />
-      <ShopPreview />
-      <Testimonials />
-      <Contact/>
-
-      <Footer/>
-    </>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="*" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {/* <Route path="/services" element={<Services />} />
+          <Route path="/services/:serviceId" element={<Services />} />
+          <Route path="/training" element={<Training />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/contact" element={<Contact />} /> */}
+        </Routes>
+        <Footer />
+      </div>
   )
 }
 
