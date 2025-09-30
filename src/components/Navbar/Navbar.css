@@ -226,6 +226,7 @@
         left: -100%;
         top: 0;
         flex-direction: column;
+        scroll-behavior: auto;
         background-color: #1a365d;
         /* Deep blue background for mobile menu */
         width: 100%;
