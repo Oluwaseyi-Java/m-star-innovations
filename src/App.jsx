@@ -7,6 +7,7 @@ import Services from './components/Services/Services'
 import Training from './components/Training/Training'
 import ShopPreview from './components/ShopPreview/ShopPreview'
 import Testimonials from './components/Testimonial/Testimonials'
+import Contact from './components/Conteact/Contact'
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <Services />
       <Training />
       <ShopPreview />
-      <Testimonials/>
+      <Testimonials />
+      <Contact/>
 
       <Footer/>
     </>
