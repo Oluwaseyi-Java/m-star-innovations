@@ -125,6 +125,8 @@
     .nav-link {
         justify-content: space-between;
         width: 100%;
+        padding: 1.5rem;
+            display: block;
     }
 }
 .nav-menu {
