@@ -1,5 +1,7 @@
 import React from 'react';
+import Testimonials from "../components/Testimonial/Testimonials"
 import './About.css';
+import image from "../assets/ceopic.jpg"
 
 const About = () => {
   const stats = [
@@ -191,7 +193,7 @@ const About = () => {
           <div className="ceo-content">
             <div className="ceo-image">
               <div className="image-container">
-                <img src="" alt="Mr Adewuyi Moses - CEO" className="ceo-photo" />
+                <img src={image} alt="Mr Adewuyi Moses - CEO" className="ceo-photo" />
                 <div className="image-overlay"></div>
               </div>
             </div>
@@ -232,14 +234,14 @@ const About = () => {
                   </div>
                 </div>
 
-                <div className="detail-group">
+                {/* <div className="detail-group">
                   <h4>Personal Interests</h4>
                   <div className="interests">
                     <span className="interest-tag">Surfing Internet</span>
                     <span className="interest-tag">Reading</span>
                     <span className="interest-tag">Listening to Music</span>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               <div className="ceo-quote">
@@ -251,7 +253,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+          </section>
+          
+          <Testimonials/>
 
     </div>
   );
