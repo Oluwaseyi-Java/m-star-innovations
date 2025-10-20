@@ -36,7 +36,7 @@ const Hero = () => {
               <input 
                 type="email" 
                 placeholder="Enter your email"
-                className="email-input"
+                className="email-input" 
               />
               <button className="subscribe-btn">Get Quote</button>
             </div>
