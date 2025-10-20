@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import About from "./pages/About"
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
-
+import Training from './pages/Training'
 
 function App() {
   
@@ -14,10 +14,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="*" element={<Home />} />
-          <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/training" element={<Training />} />
           {/* <Route path="/services" element={<Services />} />
           <Route path="/services/:serviceId" element={<Services />} />
-          <Route path="/training" element={<Training />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/contact" element={<Contact />} /> */}
         </Routes>

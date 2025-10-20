@@ -37,7 +37,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsServicesOpen(false)}
             onClick={()=>toggleServices()}
           >
-            <span className="nav-link">
+            <span className="nav-link" onClick={toggleMenu}>
               Our Services
               <span className="dropdown-arrow">▼</span>
             </span>
@@ -49,11 +49,11 @@ const Navbar = () => {
               ))}
             </div>
           </div>
-          <div className="nav-item"><Link to='/about'>About Us</Link></div>
-          <div className="nav-item">Training</div>
-          <div className="nav-item"> <Link to="/shop">Shop</Link></div>
-          <div className="nav-item"><Link to='#contact'>Contact</Link></div>
-          <div className="nav-item">Careers</div>
+          <div className="nav-item" onClick={toggleMenu}><Link to='/about'>About Us</Link></div>
+          <div className="nav-item" onClick={toggleMenu}>Training</div>
+          <div className="nav-item" onClick={toggleMenu}> <Link to="/shop">Shop</Link></div>
+          <div className="nav-item" onClick={toggleMenu}><Link to='#contact'>Contact</Link></div>
+          <div className="nav-item" onClick={toggleMenu}>Careers</div>
           
           {/* Get Quote Button - Inside menu for mobile */}
           <button className="nav-cta-mobile">Get Quote</button>
