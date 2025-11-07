@@ -59,6 +59,7 @@
     transition: all 0.3s ease;
     z-index: 1000;
     border: 1px solid #e2e8f0;
+    padding: 10px 0;
 }
 
 .dropdown-menu.active {
@@ -69,7 +70,7 @@
 
 .dropdown-item {
     display: block;
-    padding: 12px 20px;
+    padding: 15px 20px;
     color: #2d3748;
     text-decoration: none;
     border-bottom: 1px solid #f7fafc;

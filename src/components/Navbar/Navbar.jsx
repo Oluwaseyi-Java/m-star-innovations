@@ -41,6 +41,7 @@ const Navbar = () => {
               Our Services
               <span className="dropdown-arrow">▼</span>
             </span>
+            
             <div className={`dropdown-menu ${isServicesOpen ? 'active' : ''}`}>
               {services.map((service, index) => (
                 <a key={index} href={service.path} className="dropdown-item">
