@@ -51,7 +51,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="nav-item" onClick={toggleMenu}><Link to='/about'>About Us</Link></div>
-          <div className="nav-item" onClick={toggleMenu}>Training</div>
+          <div className="nav-item" onClick={toggleMenu}><Link to="/training">Training</Link></div>
           <div className="nav-item" onClick={toggleMenu}> <Link to="/shop">Shop</Link></div>
           <div className="nav-item" onClick={toggleMenu}><Link to='#contact'>Contact</Link></div>
           <div className="nav-item" onClick={toggleMenu}>Careers</div>
