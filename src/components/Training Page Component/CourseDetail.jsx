@@ -111,7 +111,7 @@ const CourseDetail = () => {
       </section>
 
       {/* Course Details */}
-      <section className="course-details">
+      <section className="course-details-course">
         <div className="container">
           <div className="details-grid">
             
