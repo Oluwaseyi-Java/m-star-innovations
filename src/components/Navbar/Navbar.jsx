@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   const services = [
-    { name: 'General Procurement & Contract', path: '/procurement' },
+    { name: 'General Procurement & Contract', path: '/services/procurement' },
     { name: 'Project & Facility Management', path: '/project-management' },
     { name: 'Computer & Engineering Training', path: '/training' },
     { name: 'ICT Solutions & Gadgets', path: '/ict-solutions' },
