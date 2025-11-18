@@ -3,7 +3,7 @@
 }
 
 /* Common Container */
-.container {
+.pro-cat-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -182,7 +182,7 @@
     margin-bottom: 1.5rem;
 }
 
-.categories-grid {
+.pro-categories-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
@@ -718,7 +718,7 @@
         font-size: 2.2rem;
     }
 
-    .categories-grid {
+    .pro-categories-grid {
         grid-template-columns: 1fr;
     }
 
@@ -768,7 +768,7 @@
         font-size: 3rem;
     }
 
-    .categories-grid,
+    .pro.categories-grid,
     .industries-grid {
         grid-template-columns: 1fr;
     }

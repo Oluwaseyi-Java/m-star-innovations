@@ -122,14 +122,14 @@ const Procurement = () => {
 
       {/* Procurement Categories */}
       <section className="procurement-categories">
-        <div className="container">
-          <div className="categories-header">
+        <div className="pro-cat-container">
+          <div className="categories-header"> 
             <h2>Our Procurement Categories</h2>
             <p>Comprehensive range of equipment and materials for various industries</p>
             <div className="underline"></div>
           </div>
           
-          <div className="categories-grid">
+          <div className="pro-categories-grid">
             {procurementCategories.map((category, index) => (
               <div key={index} className="category-card">
                 <div className="category-icon">{category.icon}</div>

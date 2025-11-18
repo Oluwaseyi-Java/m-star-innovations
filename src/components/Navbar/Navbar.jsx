@@ -53,8 +53,8 @@ const Navbar = () => {
           </div>
           <div className="nav-item" onClick={toggleMenu}><Link to='/about'>About Us</Link></div>
           <div className="nav-item" onClick={toggleMenu}><Link to="/training">Training</Link></div>
-          <div className="nav-item" onClick={toggleMenu}> <Link to="/shop">Shop</Link></div>
-          <div className="nav-item" onClick={toggleMenu}><Link to='#contact'>Contact</Link></div>
+          <div className="nav-item" onClick={toggleMenu}> <Link to="/shop/marketplace">Shop</Link></div>
+          <div className="nav-item" onClick={toggleMenu}><Link to='/#contact'>Contact</Link></div>
           <div className="nav-item" onClick={toggleMenu}>Careers</div>
           
           {/* Get Quote Button - Inside menu for mobile */}
