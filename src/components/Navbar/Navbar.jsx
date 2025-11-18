@@ -15,10 +15,11 @@ const Navbar = () => {
 
   const services = [
     { name: 'General Procurement & Contract', path: '/services/procurement' },
-    { name: 'Project & Facility Management', path: '/project-management' },
+    { name: 'Project & Facility Management', path: '/services/project-management' },
     { name: 'Computer & Engineering Training', path: '/training' },
-    { name: 'ICT Solutions & Gadgets', path: '/ict-solutions' },
-    { name: 'General Researches & Consult', path: '/research-consult' }
+    { name: 'ICT Solutions & Gadgets', path: '/services/ict-solutions' },
+    { name: 'Learning and capacity building (L&CB)', path: '/services/learning-and-capacity-building' },
+    { name: 'General Researches & Consult', path: '/services/research-consult' }
   ];
   return (
     <nav className="navbar">

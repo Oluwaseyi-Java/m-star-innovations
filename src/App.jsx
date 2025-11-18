@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer'
 import Training from './pages/Training'
 import CourseDetail from './components/Training Page Component/CourseDetail'
 import Procument from './pages/Procument'
+import IctGadgetSolutions from './pages/IctGadgetSolutions'
+import ProjectManagement from './pages/ProjectManagement'
 
 function App() {
   
@@ -19,7 +21,9 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/training" element={<Training />} />
         <Route path="/training/:courseId" element={<CourseDetail />} />
-        <Route path='/services/procurement' element={ <Procument/>} />
+        <Route path='/services/procurement' element={<Procument />} />
+        <Route path='/services/ict-solutions' element={<IctGadgetSolutions />} />
+        <Route path='/services/project-management' element={ <ProjectManagement/>} />
           {/* <Route path="/services" element={<Services />} />
           <Route path="/services/:serviceId" element={<Services />} />
           <Route path="/shop" element={<Shop />} />
