@@ -21,15 +21,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="*" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/training" element={<Training />} />
-        <Route path="/training/:courseId" element={<CourseDetail />} />
-        <Route path='/services/procurement' element={<Procument />} />
-        <Route path='/services/ict-solutions' element={<IctGadgetSolutions />} />
-        <Route path='/services/project-management' element={<ProjectManagement />} />
-        <Route path='/services/learning-and-capacity-building' element={<LandCB />} />
-        <Route path='/Shop/Marketplace' element={<Shop />} />
-        <Route path='/careers' element={ <Careers/>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/training" element={<Training />} />
+          <Route path="/training/:courseId" element={<CourseDetail />} />
+          <Route path='/services/procurement' element={<Procument />} />
+          <Route path='/services/ict-solutions' element={<IctGadgetSolutions />} />
+          <Route path='/services/project-management' element={<ProjectManagement />} />
+          <Route path='/services/learning-and-capacity-building' element={<LandCB />} />
+          <Route path='/Shop/Marketplace' element={<Shop />} />
+          <Route path='/careers' element={ <Careers/>} />
 
         {/* <Route path="/services" element={<Services />} />
           <Route path="/services/:serviceId" element={<Services />} />

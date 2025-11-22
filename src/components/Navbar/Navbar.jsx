@@ -22,7 +22,7 @@ const Navbar = () => {
     { name: 'General Researches & Consult', path: '/services/research-consult' }
   ];
   return (
-    <nav className="navbar">
+    <nav className="navbar"> 
       <div className="nav-container">
         {/* Logo */}
         <div className="nav-logo">
@@ -45,9 +45,9 @@ const Navbar = () => {
             
             <div className={`dropdown-menu ${isServicesOpen ? 'active' : ''}`}>
               {services.map((service, index) => (
-                <a key={index} href={service.path} className="dropdown-item">
+                <Link key={index} to={service.path} className="dropdown-item">
                   {service.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
