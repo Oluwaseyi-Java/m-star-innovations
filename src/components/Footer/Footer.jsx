@@ -3,7 +3,7 @@ import './Footer.css';
 import FB from "./assets/facebook.png"
 import IG from "./assets/instagram.png"
 import TW from "./assets/twitter.png"
-import IN from "./assets/linkedIn.png"
+import IN from "./assets/linkedin.png"
 
 const Footer = () => {
   return (
