@@ -71,7 +71,10 @@
     font-size: 0.9rem;
     transition: all 0.3s ease;
 }
-
+.social-link img{
+    z-index: 1000;
+    width: 100%;
+}
 .social-link:hover {
     background: #e53e3e;
     transform: translateY(-2px);

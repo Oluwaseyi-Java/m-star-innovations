@@ -74,11 +74,11 @@ const Contact = () => {
   ];
 
   return (
-    <section className="contact" id="contact">
+    <section className="contact" >
       <div className="contact-container">
         
         {/* Section Header */}
-        <div className="contact-header">
+        <div className="contact-header" id="contact">
           <h2 className="contact-title">Get In Touch</h2>
           <p className="contact-subtitle">
             Ready to start your project? Contact us today and let's discuss how we can help 

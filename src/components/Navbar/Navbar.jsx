@@ -55,7 +55,7 @@ const Navbar = () => {
           <div className="nav-item" onClick={toggleMenu}><Link to="/training">Training</Link></div>
           <div className="nav-item" onClick={toggleMenu}> <Link to="/shop/marketplace">Shop</Link></div>
           <div className="nav-item" onClick={toggleMenu}><Link to='/#contact'>Contact</Link></div>
-          <div className="nav-item" onClick={toggleMenu}>Careers</div>
+          <div className="nav-item" onClick={toggleMenu}><Link to="/careers">Careers</Link></div>
           
           {/* Get Quote Button - Inside menu for mobile */}
           <button className="nav-cta-mobile">Get Quote</button>

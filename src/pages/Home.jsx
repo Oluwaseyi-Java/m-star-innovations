@@ -6,7 +6,7 @@ import Services from '../components/Services/Services'
 import Training from '../components/Training/TrainingReview'
 import ShopPreview from '../components/ShopPreview/ShopPreview'
 import Testimonials from '../components/Testimonial/Testimonials'
-import Contact from '../components/Conteact/Contact'
+import Contact from '../components/Contact/Contact'
 
 const Home = () => {
     return (

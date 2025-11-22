@@ -1,5 +1,9 @@
 import React from 'react';
 import './Footer.css';
+import FB from "./assets/facebook.png"
+import IG from "./assets/instagram.png"
+import TW from "./assets/twitter.png"
+import IN from "./assets/LinkedIn.png"
 
 const Footer = () => {
   return (
@@ -19,10 +23,10 @@ const Footer = () => {
             <div className="social-links">
               <span className="social-text">Follow us:</span>
               <div className="social-icons">
-                <a href="#" className="social-link">FB</a>
-                <a href="#" className="social-link">TW</a>
-                <a href="#" className="social-link">IG</a>
-                <a href="#" className="social-link">IN</a>
+                <a href="#" className="social-link"><img src={FB} alt=""  /></a>
+                <a href="#" className="social-link"><img src={TW} alt=""  /></a>
+                <a href="#" className="social-link"><img src={IG} alt=""  /></a>
+                <a href="#" className="social-link"><img src={IN} alt=""  /></a>
               </div>
             </div>
           </div>

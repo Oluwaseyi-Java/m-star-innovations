@@ -12,6 +12,7 @@ import IctGadgetSolutions from './pages/IctGadgetSolutions'
 import ProjectManagement from './pages/ProjectManagement'
 import LandCB from './pages/LandCB'
 import Shop from './pages/Shop'
+import Careers from './pages/Careers'
 
 function App() {
   
@@ -27,7 +28,8 @@ function App() {
         <Route path='/services/ict-solutions' element={<IctGadgetSolutions />} />
         <Route path='/services/project-management' element={<ProjectManagement />} />
         <Route path='/services/learning-and-capacity-building' element={<LandCB />} />
-        <Route path='/Shop/Marketplace' element={<Shop/>}/>
+        <Route path='/Shop/Marketplace' element={<Shop />} />
+        <Route path='/careers' element={ <Careers/>} />
 
         {/* <Route path="/services" element={<Services />} />
           <Route path="/services/:serviceId" element={<Services />} />
