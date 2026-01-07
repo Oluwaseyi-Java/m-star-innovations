@@ -158,7 +158,7 @@ const About = () => {
           <div className="vision-content">
             <div className="vision-text">
               <h2>Meeting Future Challenges</h2>
-              <div className="underline"></div>
+              <div className="underline-2"></div>
               <p>
                 Today, the challenges for industrial development demands new innovations, 
                 visions and ideas by operators, contractors and suppliers. M-STAR INNOVATIONS 
