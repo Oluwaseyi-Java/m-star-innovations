@@ -170,9 +170,9 @@ const ShopPreview = () => {
               </div>
 
               {/* Product Features */}
-              <ul className="product-features">
+              <ul className="product-features-home">
                 {product.features.map((feature, index) => (
-                  <li key={index} className="feature-item">
+                  <li key={index} className="feature-item-home">
                     {feature}
                   </li>
                 ))}
@@ -208,13 +208,13 @@ const ShopPreview = () => {
 
         {/* View All CTA */}
         <div className="shop-cta">
-          <div className="cta-content">
+          <div className="cta-content-home">
             <h3>Ready to Find Your Perfect Tech?</h3>
             <p>Explore our full catalog with 20+ quality products and exclusive deals.</p>
-            <button className="view-all-btn">View All Products</button>
+            <button className="view-all-btn" onClick={()=>window.location.assign("/shop/marketplace")}>View All Products</button>
           </div>
         </div>
-
+ 
       </div>
     </section>
   );

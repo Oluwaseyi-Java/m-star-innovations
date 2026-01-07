@@ -105,12 +105,12 @@ const Testimonials = () => {
 
         {/* Bottom CTA */}
         <div className="testimonials-cta">
-          <div className="cta-content">
+          <div className="cta-content-home">
             <h3>Join Our Success Stories</h3>
             <p>Start your journey with M-Star Innovations today and become our next success story.</p>
             <div className="cta-buttons">
-              <button className="primary-cta">Get Started</button>
-              <button className="secondary-cta">View More Reviews</button>
+              {/* <button className="primary-cta" ></button> */}
+              <button className="secondary-cta" onClick={()=>window.location.assign("/services/procurement")}>Get Started</button>
             </div>
           </div>
         </div>

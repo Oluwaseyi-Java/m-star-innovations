@@ -584,7 +584,7 @@ const LearningCapacity = () => {
               <button className="primary-cta" onClick={() => setIsEnquiryOpen(true)}>
                 Enroll in Program
               </button>
-              <button className="secondary-cta">
+              <button className="secondary-cta-pm">
                 Download Program Guide
               </button>
             </div>

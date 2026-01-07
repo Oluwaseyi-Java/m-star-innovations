@@ -89,7 +89,8 @@
 /* Service Icon */
 .service-icon {
     font-size: 3rem;
-    margin-bottom: 1.5rem;
+    margin:  auto auto 1.5rem auto;
+    /* margin-bottom: 1.5rem; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,7 +172,7 @@
 }
 
 /* Bottom CTA Section */
-.services-cta {
+.services-cta-home {
     text-align: center;
     padding: 3rem 2rem;
     background: linear-gradient(135deg, #1a365d, #2d3748);
@@ -180,7 +181,7 @@
     margin-top: 2rem;
 }
 
-.services-cta p {
+.services-cta-home p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -227,7 +228,7 @@
         padding: 2rem 1.5rem;
     }
 
-    .services-cta {
+    .services-cta-home {
         padding: 2rem 1.5rem;
     }
 

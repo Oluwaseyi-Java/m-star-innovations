@@ -71,6 +71,7 @@
 .stat-label {
     font-size: 0.9rem;
     opacity: 0.8;
+    color: white;
 }
 
 .hero-actions {
@@ -666,20 +667,20 @@
 }
 
 /* CTA Section */
-.project-cta {
+.project-cta-pm {
     padding: 80px 0;
     background: #f7fafc;
     text-align: center;
 }
 
-.cta-content h2 {
+.cta-content-pm h2 {
     font-size: 2.5rem;
     font-weight: 700;
     color: #1a365d;
     margin-bottom: 1rem;
 }
 
-.cta-content p {
+.cta-content-pm p {
     font-size: 1.2rem;
     color: #4a5568;
     margin-bottom: 2.5rem;
@@ -711,9 +712,10 @@
     background: #c53030;
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(229, 62, 62, 0.3);
+    
 }
 
-.secondary-cta {
+.cta-buttons .secondary-cta-pm {
     background: transparent;
     color: #1a365d;
     border: 2px solid #1a365d;
@@ -725,7 +727,7 @@
     transition: all 0.3s ease;
 }
 
-.secondary-cta:hover {
+.secondary-cta-pm:hover {
     background: #1a365d;
     color: white;
     transform: translateY(-2px);
@@ -926,7 +928,7 @@
     .cta-button,
     .secondary-button,
     .primary-cta,
-    .secondary-cta {
+    .secondary-cta-pm {
         width: 100%;
         max-width: 250px;
     }

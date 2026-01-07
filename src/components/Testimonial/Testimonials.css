@@ -194,18 +194,18 @@
     opacity: 0.3;
 }
 
-.cta-content {
+.cta-content-home {
     position: relative;
     z-index: 2;
 }
 
-.cta-content h3 {
+.cta-content-home h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
-.cta-content p {
+.cta-content-home p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     opacity: 0.9;
@@ -283,7 +283,7 @@
         padding: 3rem 2rem;
     }
 
-    .cta-content h3 {
+    .cta-content-home h3 {
         font-size: 1.8rem;
     }
 

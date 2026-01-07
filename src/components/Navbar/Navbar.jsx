@@ -19,13 +19,13 @@ const Navbar = () => {
     { name: 'Computer & Engineering Training', path: '/training' },
     { name: 'ICT Solutions & Gadgets', path: '/services/ict-solutions' },
     { name: 'Learning and capacity building (L&CB)', path: '/services/learning-and-capacity-building' },
-    { name: 'General Researches & Consult', path: '/services/research-consult' }
+    // { name: 'General Researches & Consult', path: '/services/research-consult' }
   ];
   return (
     <nav className="navbar"> 
       <div className="nav-container">
         {/* Logo */}
-        <div className="nav-logo">
+        <div className="nav-logo" onClick={()=>window.location.assign("/")}>
           M-Star Innovations
         </div>
 
@@ -54,6 +54,7 @@ const Navbar = () => {
           <div className="nav-item" onClick={toggleMenu}><Link to='/about'>About Us</Link></div>
           <div className="nav-item" onClick={toggleMenu}><Link to="/training">Training</Link></div>
           <div className="nav-item" onClick={toggleMenu}> <Link to="/shop/marketplace">Shop</Link></div>
+          <div className="nav-item" onClick={toggleMenu}> <Link to="/blog">Blog</Link></div>
           <div className="nav-item" onClick={toggleMenu}><Link to='/#contact'>Contact</Link></div>
           <div className="nav-item" onClick={toggleMenu}><Link to="/careers">Careers</Link></div>
           

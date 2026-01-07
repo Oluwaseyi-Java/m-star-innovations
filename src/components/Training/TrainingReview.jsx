@@ -99,7 +99,7 @@ const Training = () => {
         </div>
 
         {/* Courses Grid */}
-        <div className="courses-grid">
+        <div className="courses-grid-home">
           {courses.map((course) => (
             <div key={course.id} className={`course-card ${course.popular ? 'popular' : ''}`}>
               
@@ -155,7 +155,7 @@ const Training = () => {
 
         {/* Bottom CTA */}
         <div className="training-cta">
-          <div className="cta-content">
+          <div className="cta-content-home">
             <h3>Ready to Start Your Tech Journey?</h3>
             <p>Contact us for personalized career guidance and course recommendations.</p>
             <div className="cta-buttons">

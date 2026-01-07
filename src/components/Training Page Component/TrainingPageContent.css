@@ -354,13 +354,14 @@
     font-weight: 600;
 }
 
-.cta-content p {
+.cta-content span {
     font-size: 1.1rem;
     margin-bottom: 2rem;
     opacity: 0.9;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 .cta-buttons {

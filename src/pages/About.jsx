@@ -104,7 +104,7 @@ const About = () => {
           <div className="success-content">
             <div className="success-text">
               <h2>Our Success Story</h2>
-              <div className="underline"></div>
+              <div className="underline-a"></div>
               <p>
                 The success of M-STAR INNOVATIONS LIMITED has been assured by our ability to 
                 fulfill the most rigorous demands of our clients. No matter what the client 
@@ -123,7 +123,7 @@ const About = () => {
               {stats.map((stat, index) => (
                 <div key={index} className="stat-item">
                   <div className="stat-number">{stat.number}</div>
-                  <div className="stat-label">{stat.label}</div>
+                  <div className="stat-label-p">{stat.label}</div>
                 </div>
               ))}
             </div>

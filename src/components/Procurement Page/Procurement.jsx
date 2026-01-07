@@ -154,28 +154,28 @@ const Procurement = () => {
               <div className="underline"></div>
               <div className="benefits-list">
                 <div className="benefit-item">
-                  <span className="benefit-icon">✓</span>
+                  <span className="benefit-icon-procure">✓</span> 
                   <div className="benefit-content">
                     <h4>Quality Assurance</h4>
                     <p>All products meet international quality standards and specifications</p>
                   </div>
                 </div>
                 <div className="benefit-item">
-                  <span className="benefit-icon">✓</span>
+                  <span className="benefit-icon-procure">✓</span>
                   <div className="benefit-content">
                     <h4>Cost Effectiveness</h4>
                     <p>Competitive pricing without compromising on quality and service</p>
                   </div>
                 </div>
                 <div className="benefit-item">
-                  <span className="benefit-icon">✓</span>
+                  <span className="benefit-icon-procure">✓</span>
                   <div className="benefit-content">
                     <h4>Timely Delivery</h4>
                     <p>Efficient logistics network ensuring prompt delivery across Nigeria</p>
                   </div>
                 </div>
                 <div className="benefit-item">
-                  <span className="benefit-icon">✓</span>
+                  <span className="benefit-icon-procure">✓</span>
                   <div className="benefit-content">
                     <h4>Extensive Network</h4>
                     <p>Strong relationships with manufacturers and suppliers worldwide</p>
@@ -188,15 +188,15 @@ const Procurement = () => {
                 <h3>Our Procurement Impact</h3>
                 <div className="stat-item">
                   <span className="stat-number">500+</span>
-                  <span className="stat-label">Projects Completed</span>
+                  <span className="stat-label-p">Projects Completed</span>
                 </div>
                 <div className="stat-item">
                   <span className="stat-number">100+</span>
-                  <span className="stat-label">Reliable Suppliers</span>
+                  <span className="stat-label-p">Reliable Suppliers</span>
                 </div>
                 <div className="stat-item">
                   <span className="stat-number">98%</span>
-                  <span className="stat-label">On-Time Delivery</span>
+                  <span className="stat-label-p">On-Time Delivery</span>
                 </div>
               </div>
             </div>
@@ -248,7 +248,7 @@ const Procurement = () => {
       {/* CTA Section */}
       <section className="procurement-cta">
         <div className="container">
-          <div className="cta-content">
+          <div className="cta-content-procure">
             <h2>Ready to Streamline Your Procurement?</h2>
             <p>Contact us today for competitive quotes and reliable supply chain solutions</p>
             <div className="cta-buttons">

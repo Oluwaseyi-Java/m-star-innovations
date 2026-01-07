@@ -198,7 +198,7 @@ const Project_Management = () => {
               Comprehensive management solutions for spaces, infrastructure, and human resources
             </p>
             <div className="hero-stats">
-              <div className="stat">
+              <div className="stat"> 
                 <span className="stat-number">100+</span>
                 <span className="stat-label">Projects Managed</span>
               </div>
@@ -461,16 +461,16 @@ const Project_Management = () => {
       )}
 
       {/* CTA Section */}
-      <section className="project-cta">
+      <section className="project-cta-pm">
         <div className="container">
-          <div className="cta-content">
+          <div className="cta-content-pm">
             <h2>Ready to Optimize Your Operations?</h2>
             <p>Get comprehensive project, facility, and HR management solutions tailored to your needs.</p>
             <div className="cta-buttons">
               <button className="primary-cta" onClick={() => setIsEnquiryOpen(true)}>
                 Get Free Consultation
               </button>
-              <button className="secondary-cta">
+              <button className="secondary-cta-pm" >
                 Call: +234 812 345 6789
               </button>
             </div>

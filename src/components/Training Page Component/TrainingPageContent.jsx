@@ -227,9 +227,9 @@ const TrainingPageContent = () => {
 
           {/* Bottom CTA */}
           <div className="courses-cta">
-            <div className="cta-content">
+            <div className="cta-content"> 
               <h3>Not Sure Which Course is Right for You?</h3>
-              <p>Schedule a free consultation with our education advisors to find the perfect program for your career goals.</p>
+              <span>Schedule a free consultation with our education advisors to find the perfect program for your career goals.</span>
               <div className="cta-buttons">
                 <button className="primary-cta">Book Free Consultation</button>
                 <button className="secondary-cta">Download Course Catalog</button>

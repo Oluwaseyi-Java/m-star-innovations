@@ -69,6 +69,7 @@
     font-size: 1.1rem;
     background: white;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    color: black;
 }
 
 .search-input:focus {

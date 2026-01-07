@@ -40,6 +40,30 @@ const Services = () => {
     }
   ];
 
+
+  const HandleServicesLocation = (title) => {
+  
+    if (title == "General Procurement & Contract") {
+      window.location.assign("/services/procurement")
+    }
+    else if (title == "Project & Facility Management") {
+      window.location.assign("/services/project-management")
+    }
+    else if (title == "Computer & Engineering Training") {
+      window.location.assign("/training")
+    }
+    else if (title == "ICT Solutions & Gadgets") {
+      window.location.assign("/services/ict-solutions")
+    }
+    else {
+      window.location.assign("/services/learning-and-capacity-building")
+    }
+      
+    
+    
+  }
+
+
   return (
     <section className="services" id="services">
       <div className="services-container">
@@ -75,7 +99,7 @@ const Services = () => {
                 ))}
               </ul>
               
-              <button className="service-cta">
+              <button className="service-cta" onClick={()=>HandleServicesLocation(service.title)}>
                 Learn More <span className="arrow">→</span>
               </button>
             </div>
@@ -83,7 +107,7 @@ const Services = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="services-cta">
+        <div className="services-cta-home">
           <p>Ready to transform your business with our expert services?</p>
           <button className="cta-button">Get Started Today</button>
         </div>

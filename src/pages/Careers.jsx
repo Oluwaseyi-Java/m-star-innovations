@@ -212,8 +212,8 @@ const Careers = () => {
               >
                 View Open Positions
               </button>
-              <button className="secondary-button">
-                Learn About Our Culture
+              <button className="secondary-button" onClick={()=>window.location.assign("/about")}>
+                Learn About Us
               </button>
             </div>
           </div>
@@ -582,8 +582,8 @@ const Careers = () => {
       {/* CTA Section */}
       <section className="careers-cta">
         <div className="container">
-          <div className="cta-content">
-            <h2>Don't See the Perfect Role?</h2>
+          <div className="cta-content-home">
+            <h3>Don't See the Perfect Role?</h3>
             <p>We're always looking for talented individuals. Send us your resume and we'll keep you in mind for future opportunities.</p>
             <div className="cta-buttons">
               <button className="primary-cta" onClick={() => setIsApplicationOpen(true)}>

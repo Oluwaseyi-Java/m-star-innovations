@@ -267,11 +267,12 @@ const Marketplace = () => {
                   placeholder="Search computers, office equipment, safety devices, medical equipment..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="search-input"
+                  className="search-input" 
                 />
               </div>
             </div>
 
+            
             <div className="hero-features">
               <div className="feature">
                 <span className="feature-icon">✅</span>
@@ -543,8 +544,8 @@ const Marketplace = () => {
       {/* CTA Section */}
       <section className="marketplace-cta">
         <div className="container">
-          <div className="cta-content">
-            <h2>Ready to Procure with Confidence?</h2>
+          <div className="cta-content-home">
+            <h3>Ready to Procure with Confidence?</h3>
             <p>Get quality products with guaranteed service excellence from M-Star Innovations</p>
             <div className="cta-buttons">
               <button className="primary-cta" onClick={() => setIsCartOpen(true)}>

@@ -336,7 +336,7 @@ const ICTSolutions = () => {
               <button className="primary-cta" onClick={() => setIsEnquiryOpen(true)}>
                 Get Free Consultation
               </button>
-              <button className="secondary-cta">
+              <button className="secondary-cta-pm">
                 Call Now: +234 812 345 6789
               </button>
             </div>

@@ -54,6 +54,7 @@
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 2rem;
+    color: white;
     opacity: 0.9;
 }
 
@@ -72,15 +73,18 @@
 .meta-label {
     font-size: 0.9rem;
     opacity: 0.8;
+    color: white;
 }
 
 .meta-value {
     font-size: 1.1rem;
     font-weight: 600;
+    color: wheat;
 }
 
 .meta-value.price {
-    color: #e53e3e;
+    color: #01f516;
+    /* color: #e53e3e; */
     font-size: 1.4rem;
 }
 
