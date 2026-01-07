@@ -13,12 +13,14 @@ import ProjectManagement from './pages/ProjectManagement'
 import LandCB from './pages/LandCB'
 import Shop from './pages/Shop'
 import Careers from './pages/Careers'
+import ScrollToTop from './ScrollToTop'
 
 function App() {
   
   return (
       <div className="App">
-        <Navbar />
+      <Navbar />
+      <ScrollToTop/>
         <Routes>
           <Route path="*" element={<Home />} />
           <Route path="/about" element={<About />} />
