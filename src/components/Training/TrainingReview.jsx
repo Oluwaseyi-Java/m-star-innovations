@@ -109,13 +109,13 @@ const Training = () => {
               )}
 
               {/* Course Category */}
-              <div className="course-category-home">{course.category}</div>
+              <div className="course-category-home"> {course.category}</div>
               
               {/* Course Title */}
               <h3 className="course-title">{course.title}</h3>
               
               {/* Course Description */}
-              <p className="course-description">{course.description}</p>
+              <p className="course-description-home">{course.description}</p>
               
               {/* Course Details */}
               <div className="course-details"> 
