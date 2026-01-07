@@ -186,7 +186,7 @@ const TrainingPageContent = () => {
                   <h3 className="course-title">{course.title}</h3>
                   
                   {/* Course Description */}
-                  <p className="course-description">{course.description}</p>
+                  <p className="course-description-home">{course.description}</p>
                   
                   {/* Course Details */}
                   <div className="course-details">
