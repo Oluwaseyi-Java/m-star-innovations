@@ -36,30 +36,30 @@ const Contact = () => {
     {
       icon: '📧',
       title: 'Email Us',
-      details: 'info@mstarinnovations.com',
+      details: 'm.startechnologies13@gmail.com',
       subtitle: 'Send us an email anytime',
-      link: 'mailto:info@mstarinnovations.com'
+      link: 'mailto:m.startechnologies13@gmail.com'
     },
     {
       icon: '📞',
       title: 'Call Us',
-      details: '+234 812 345 6789',
+      details: '+234 8160127117',
       subtitle: 'Mon to Fri 9am to 6pm',
-      link: 'tel:+2348123456789'
+      link: 'tel:+2348160127117'
     },
     {
       icon: '📍',
       title: 'Visit Us',
-      details: '123 Innovation Drive, Tech City',
-      subtitle: 'Lagos, Nigeria',
-      link: 'https://maps.google.com'
+      details: 'Suite 29 Oyebode Complex, Behind Old Gazal Hotel, Along Mercy Land Road, Dada Estate, Osogbo',
+      subtitle: 'Osun, Nigeria',
+      link: 'https://maps.app.goo.gl/NKdsarMFPUej9p9T6'
     },
     {
       icon: '💬',
       title: 'WhatsApp',
-      details: '+234 812 345 6789',
+      details: '+234 8160127117',
       subtitle: 'Quick responses',
-      link: 'https://wa.me/2348123456789'
+      link: 'https://wa.me/2348160127117'
     }
   ];
 
@@ -220,16 +220,16 @@ const Contact = () => {
         </div>
 
         {/* Map Section */}
-        <div className="map-section">
+        {/* <div className="map-section">
           <div className="map-placeholder">
             <div className="map-content">
               <div className="map-icon">🗺️</div>
               <h3>Our Location</h3>
-              <p>123 Innovation Drive, Tech City, Lagos, Nigeria</p>
-              <button className="map-btn">View on Google Maps</button>
+              <p>Suite 29 Oyebode Complex, Behind Old Gazal Hotel, Dada Estate</p>
+              <button className="map-btn" onClick={()=>window.location.assign("https://maps.app.goo.gl/NKdsarMFPUej9p9T6")}>View on Google Maps</button>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </section>

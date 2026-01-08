@@ -40,7 +40,7 @@ const Navbar = () => {
           >
             <span className="nav-link" onClick={toggleMenu}>
               Our Services
-              <span className="dropdown-arrow">▼</span>
+              <span className="dropdown-arrow">▼</span> 
             </span>
             
             <div className={`dropdown-menu ${isServicesOpen ? 'active' : ''}`}>

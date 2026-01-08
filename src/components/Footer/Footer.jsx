@@ -35,11 +35,11 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">Services</h4>
             <ul className="footer-links">
-              <li><a href="#">General Procurement</a></li>
-              <li><a href="#">Project Management</a></li>
-              <li><a href="#">IT Training</a></li>
-              <li><a href="#">ICT Solutions</a></li>
-              <li><a href="#">Business Consultancy</a></li>
+              <li><a href="/services/procurement">General Procurement</a></li>
+              <li><a href="/services/project-management">Project Management</a></li>
+              <li><a href="/training">IT Training</a></li>
+              <li><a href="/services/ict-solutions">ICT Solutions</a></li>
+              <li><a href="/services/learning-and-capacity-building">Business Consultancy</a></li>
             </ul>
           </div>
 
@@ -47,16 +47,16 @@ const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-title">Company</h4>
             <ul className="footer-links">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Demo</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/services/procurement">Demo</a></li>
               <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="/#contact">Contact</a></li>
+              <li><a href="/careers">Careers</a></li>
             </ul>
           </div>
 
           {/* Legal Section */}
-          <div className="footer-section">
+          {/* <div className="footer-section">
             <h4 className="footer-title">Legal</h4>
             <ul className="footer-links">
               <li><a href="#">Privacy Policy</a></li>
@@ -64,7 +64,7 @@ const Footer = () => {
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Cookie Policy</a></li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info Section */}
           <div className="footer-section">
@@ -72,15 +72,15 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <span className="contact-label">Email:</span>
-                <a href="mailto:info@mstarinnovations.com">info@mstarinnovations.com</a>
+                <a href="mailto:m.startechnologies13@gmail.com">m.startechnologies13@gmail.com</a>
               </div>
               <div className="contact-item">
                 <span className="contact-label">Phone:</span>
-                <a href="tel:+1234567890">+123 456 7890</a>
+                <a href="tel:+234 8160127117">+234 8160127117</a>
               </div>
               <div className="contact-item">
                 <span className="contact-label">Address:</span>
-                <span>123 Innovation Drive, Tech City</span>
+                <span>Suite 29 Oyebode Complex, Behind Old Gazal Hotel, Along Mercy Land Road, Dada Estate, Osogbo</span>
               </div>
             </div>
           </div>
